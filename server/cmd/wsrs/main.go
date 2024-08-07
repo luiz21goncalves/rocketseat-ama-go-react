@@ -29,7 +29,6 @@ func main() {
 		os.Getenv("DATABASE_PORT"),
 		os.Getenv("DATABASE_NAME"),
 	))
-
 	if err != nil {
 		panic(err)
 	}
